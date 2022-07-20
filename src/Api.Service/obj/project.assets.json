@@ -436,16 +436,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "CrossCutting/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/CrossCutting.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CrossCutting.dll": {}
-        }
-      },
       "Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1100,11 +1090,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "CrossCutting/1.0.0": {
-      "type": "project",
-      "path": "../Api.CrossCutting/CrossCutting.csproj",
-      "msbuildProject": "../Api.CrossCutting/CrossCutting.csproj"
-    },
     "Data/1.0.0": {
       "type": "project",
       "path": "../Api.Data/Data.csproj",
@@ -1118,7 +1103,6 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "CrossCutting >= 1.0.0",
       "Data >= 1.0.0",
       "Domain >= 1.0.0"
     ]
@@ -1129,11 +1113,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projetos\\curso_ddd\\src\\Api.Service\\Service.csproj",
+      "projectUniqueName": "D:\\Projetos\\curso_ddd\\src\\Api.Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "D:\\projetos\\curso_ddd\\src\\Api.Service\\Service.csproj",
+      "projectPath": "D:\\Projetos\\curso_ddd\\src\\Api.Service\\Service.csproj",
       "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
-      "outputPath": "D:\\projetos\\curso_ddd\\src\\Api.Service\\obj\\",
+      "outputPath": "D:\\Projetos\\curso_ddd\\src\\Api.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1150,14 +1134,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\projetos\\curso_ddd\\src\\Api.CrossCutting\\CrossCutting.csproj": {
-              "projectPath": "D:\\projetos\\curso_ddd\\src\\Api.CrossCutting\\CrossCutting.csproj"
+            "D:\\Projetos\\curso_ddd\\src\\Api.Data\\Data.csproj": {
+              "projectPath": "D:\\Projetos\\curso_ddd\\src\\Api.Data\\Data.csproj"
             },
-            "D:\\projetos\\curso_ddd\\src\\Api.Data\\Data.csproj": {
-              "projectPath": "D:\\projetos\\curso_ddd\\src\\Api.Data\\Data.csproj"
-            },
-            "D:\\projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj": {
-              "projectPath": "D:\\projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj"
+            "D:\\Projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj": {
+              "projectPath": "D:\\Projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj"
             }
           }
         }

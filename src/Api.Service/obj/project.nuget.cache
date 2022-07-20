@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FAoARFIuKZ7va+N9pLy8CGchSUN7nqmf/dZWekmZWhMfFuq+Z0o9i2k9JBf/CHktZrO+T10226zVa6qDFTnTIw==",
+  "dgSpecHash": "A2c3ZZeWUsbqrZBotMuxq94StCiE60WrLtY/ozQYpsCU7qXRyYaqv7jGE6ydAkThb9SPAakdTeo4QhcOtLRizw==",
   "success": true,
-  "projectFilePath": "D:\\projetos\\curso_ddd\\src\\Api.Service\\Service.csproj",
+  "projectFilePath": "D:\\Projetos\\curso_ddd\\src\\Api.Service\\Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fernando\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.3\\microsoft.data.sqlite.core.6.0.3.nupkg.sha512",
     "C:\\Users\\Fernando\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.3\\microsoft.entityframeworkcore.6.0.3.nupkg.sha512",

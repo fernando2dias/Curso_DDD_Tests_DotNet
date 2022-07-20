@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projetos\\curso_ddd\\src\\Api.Data\\Data.csproj": {}
+    "D:\\Projetos\\curso_ddd\\src\\Api.Data\\Data.csproj": {}
   },
   "projects": {
-    "D:\\projetos\\curso_ddd\\src\\Api.Data\\Data.csproj": {
+    "D:\\Projetos\\curso_ddd\\src\\Api.Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projetos\\curso_ddd\\src\\Api.Data\\Data.csproj",
+        "projectUniqueName": "D:\\Projetos\\curso_ddd\\src\\Api.Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "D:\\projetos\\curso_ddd\\src\\Api.Data\\Data.csproj",
+        "projectPath": "D:\\Projetos\\curso_ddd\\src\\Api.Data\\Data.csproj",
         "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
-        "outputPath": "D:\\projetos\\curso_ddd\\src\\Api.Data\\obj\\",
+        "outputPath": "D:\\Projetos\\curso_ddd\\src\\Api.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "D:\\projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj"
+              "D:\\Projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "D:\\Projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj"
               }
             }
           }
@@ -84,14 +84,14 @@
         }
       }
     },
-    "D:\\projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj": {
+    "D:\\Projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj",
+        "projectPath": "D:\\Projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
-        "outputPath": "D:\\projetos\\curso_ddd\\src\\Api.Domain\\obj\\",
+        "outputPath": "D:\\Projetos\\curso_ddd\\src\\Api.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
