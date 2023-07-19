@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pGJPMhYYkFHOKBz4FiihuaGVFjpK/qm8sw47Y2Oa6awrPLx5joYjyiWdYEAOJGOBEr7gD1KHwO1gZpwfMaYCvQ==",
+  "dgSpecHash": "XNvbwSTx1i6EMs55HffEEBZsSoUtQv61jBL5GNUd7ZiYeNyw+ZdvyLSW6hAT5ekGoGbP/WH2FXlTSkj8Xw0EYg==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj",
+  "projectFilePath": "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

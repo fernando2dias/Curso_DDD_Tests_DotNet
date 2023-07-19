@@ -1,4 +1,3 @@
-using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
@@ -8,14 +7,10 @@ namespace Api.Data.Context
     {
         public MyContext CreateDbContext(string[] args)
         {
-            var connectionString = new SqliteConnectionStringBuilder("Data Source=Application.db;Cache=Shared")
-            {
-                Mode = SqliteOpenMode.ReadWriteCreate,
-                // Password = password
-            }.ToString();
-            //   var connectionString = "dataBase.db";
+            var connectionString = "Server=DESKTOP-V94PVE8\\SQLEXPRESS;Database=dbAPI;Trusted_Connection=True;";
+            
             var optionsBuilder = new DbContextOptionsBuilder<MyContext>();
-            optionsBuilder.UseSqlite(connectionString);
+            optionsBuilder.UseSqlServer(connectionString);
             return new MyContext(optionsBuilder.Options);
 
         }

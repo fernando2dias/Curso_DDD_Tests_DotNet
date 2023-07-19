@@ -3,6 +3,7 @@ using Api.Domain.Interfaces;
 using Api.Domain.Interfaces.Services.User;
 using Api.Service.Services;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,9 +15,12 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
+
+
 // TODO futuramente usar a injeção utilizando o crosscutting
-ConfigureRepository.ConfigureDependenciesRepository(builder.Services);
 ConfigureService.ConfigureDependenciesService(builder.Services);
+ConfigureRepository.ConfigureDependenciesRepository(builder.Services);
 
 var app = builder.Build();
 

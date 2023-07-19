@@ -10,3 +10,15 @@ D:\projetos\curso_ddd\src\Api.Domain\obj\Debug\net6.0\Domain.dll
 D:\projetos\curso_ddd\src\Api.Domain\obj\Debug\net6.0\refint\Domain.dll
 D:\projetos\curso_ddd\src\Api.Domain\obj\Debug\net6.0\Domain.pdb
 D:\projetos\curso_ddd\src\Api.Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\projetos\Curso_DDD_Tests_Dotnet\src\Api.Domain\bin\Debug\net6.0\Domain.deps.json
+C:\projetos\Curso_DDD_Tests_Dotnet\src\Api.Domain\bin\Debug\net6.0\Domain.dll
+C:\projetos\Curso_DDD_Tests_Dotnet\src\Api.Domain\bin\Debug\net6.0\Domain.pdb
+C:\projetos\Curso_DDD_Tests_Dotnet\src\Api.Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\projetos\Curso_DDD_Tests_Dotnet\src\Api.Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\Curso_DDD_Tests_Dotnet\src\Api.Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\projetos\Curso_DDD_Tests_Dotnet\src\Api.Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\projetos\Curso_DDD_Tests_Dotnet\src\Api.Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\projetos\Curso_DDD_Tests_Dotnet\src\Api.Domain\obj\Debug\net6.0\Domain.dll
+C:\projetos\Curso_DDD_Tests_Dotnet\src\Api.Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\projetos\Curso_DDD_Tests_Dotnet\src\Api.Domain\obj\Debug\net6.0\Domain.pdb
+C:\projetos\Curso_DDD_Tests_Dotnet\src\Api.Domain\obj\Debug\net6.0\ref\Domain.dll

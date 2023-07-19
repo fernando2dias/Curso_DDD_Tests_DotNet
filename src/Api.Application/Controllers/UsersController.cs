@@ -6,8 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 [ApiController]
 public class UsersController : ControllerBase
 {
+    private IUserService _service;
+    public UsersController(IUserService service)
+    {
+        _service = service;
+    }
+
     [HttpGet]
-    public async Task<ActionResult> GetAll([FromServices] IUserService service)
+    public async Task<ActionResult> GetAll()
     {
         if (!ModelState.IsValid)
         {//400
@@ -16,7 +22,7 @@ public class UsersController : ControllerBase
 
         try
         {//200
-            return Ok(await service.GetAll());
+            return Ok(await _service.GetAll());
         }
         catch (ArgumentException e)
         {//500

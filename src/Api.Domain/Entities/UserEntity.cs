@@ -6,7 +6,5 @@ namespace Api.Domain.Entities
 
         public string Email { get; set; }
 
-
-
     }
 }

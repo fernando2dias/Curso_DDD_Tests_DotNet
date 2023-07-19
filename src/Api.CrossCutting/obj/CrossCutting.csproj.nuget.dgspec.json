@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\curso_ddd\\src\\Api.CrossCutting\\CrossCutting.csproj": {}
+    "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.CrossCutting\\CrossCutting.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\curso_ddd\\src\\Api.CrossCutting\\CrossCutting.csproj": {
+    "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.CrossCutting\\CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\curso_ddd\\src\\Api.CrossCutting\\CrossCutting.csproj",
+        "projectUniqueName": "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.CrossCutting\\CrossCutting.csproj",
         "projectName": "CrossCutting",
-        "projectPath": "D:\\Projetos\\curso_ddd\\src\\Api.CrossCutting\\CrossCutting.csproj",
-        "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\curso_ddd\\src\\Api.CrossCutting\\obj\\",
+        "projectPath": "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.CrossCutting\\CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\Fer e Ju\\.nuget\\packages\\",
+        "outputPath": "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fer e Ju\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,14 +28,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Projetos\\curso_ddd\\src\\Api.Data\\Data.csproj": {
-                "projectPath": "D:\\Projetos\\curso_ddd\\src\\Api.Data\\Data.csproj"
+              "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Data\\Data.csproj"
               },
-              "D:\\Projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "D:\\Projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj"
+              "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Domain\\Domain.csproj"
               },
-              "D:\\Projetos\\curso_ddd\\src\\Api.Service\\Service.csproj": {
-                "projectPath": "D:\\Projetos\\curso_ddd\\src\\Api.Service\\Service.csproj"
+              "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Service\\Service.csproj": {
+                "projectPath": "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Service\\Service.csproj"
               }
             }
           }
@@ -61,7 +61,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -70,21 +71,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projetos\\curso_ddd\\src\\Api.Data\\Data.csproj": {
+    "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\curso_ddd\\src\\Api.Data\\Data.csproj",
+        "projectUniqueName": "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "D:\\Projetos\\curso_ddd\\src\\Api.Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\curso_ddd\\src\\Api.Data\\obj\\",
+        "projectPath": "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\Fer e Ju\\.nuget\\packages\\",
+        "outputPath": "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fer e Ju\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -98,8 +99,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "D:\\Projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj"
+              "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Domain\\Domain.csproj"
               }
             }
           }
@@ -114,25 +115,21 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.3, )"
-            },
             "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[6.0.4, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[6.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[6.0.4, )"
             }
           },
           "imports": [
@@ -141,7 +138,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -150,21 +148,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj": {
+    "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\curso_ddd\\src\\Api.Domain\\obj\\",
+        "projectPath": "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Fer e Ju\\.nuget\\packages\\",
+        "outputPath": "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fer e Ju\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -195,7 +193,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -204,21 +203,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projetos\\curso_ddd\\src\\Api.Service\\Service.csproj": {
+    "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\curso_ddd\\src\\Api.Service\\Service.csproj",
+        "projectUniqueName": "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "D:\\Projetos\\curso_ddd\\src\\Api.Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\curso_ddd\\src\\Api.Service\\obj\\",
+        "projectPath": "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\Fer e Ju\\.nuget\\packages\\",
+        "outputPath": "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fer e Ju\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -232,11 +231,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Projetos\\curso_ddd\\src\\Api.Data\\Data.csproj": {
-                "projectPath": "D:\\Projetos\\curso_ddd\\src\\Api.Data\\Data.csproj"
+              "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Data\\Data.csproj"
               },
-              "D:\\Projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "D:\\Projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj"
+              "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Domain\\Domain.csproj"
               }
             }
           }
@@ -256,7 +255,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -265,7 +265,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj": {}
+    "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj": {
+    "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Projetos\\curso_ddd\\src\\Api.Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\curso_ddd\\src\\Api.Domain\\obj\\",
+        "projectPath": "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Fer e Ju\\.nuget\\packages\\",
+        "outputPath": "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fer e Ju\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -54,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     }
