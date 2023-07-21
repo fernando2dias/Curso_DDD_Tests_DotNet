@@ -1,10 +1,4 @@
 using Api.CrossCutting.DependencyInjection;
-using Api.Domain.Interfaces;
-using Api.Domain.Interfaces.Services.User;
-using Api.Service.Services;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
