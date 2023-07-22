@@ -1,4 +1,6 @@
 using Api.CrossCutting.DependencyInjection;
+using Api.Domain.Security;
+using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -36,6 +38,16 @@ builder.Services.AddSwaggerGen(c =>
 // TODO futuramente usar a injeção utilizando o crosscutting
 ConfigureService.ConfigureDependenciesService(builder.Services);
 ConfigureRepository.ConfigureDependenciesRepository(builder.Services);
+
+var signingConfigurations = new SigningConfigurations();
+builder.Services.AddSingleton(signingConfigurations);
+
+var tokenConfigurations = new TokenConfigurations();
+new ConfigureFromConfigurationOptions<TokenConfigurations>(
+    builder.Configuration.GetSection("TokenConfigurations"))
+    .Configure(tokenConfigurations);
+builder.Services.AddSingleton(tokenConfigurations);
+
 
 var app = builder.Build();
 
