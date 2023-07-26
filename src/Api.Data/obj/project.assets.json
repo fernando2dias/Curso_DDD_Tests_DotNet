@@ -2379,11 +2379,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Data\\Data.csproj",
+      "projectUniqueName": "c:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Data\\Data.csproj",
+      "projectPath": "c:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Data\\Data.csproj",
       "packagesPath": "C:\\Users\\Fer e Ju\\.nuget\\packages\\",
-      "outputPath": "C:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Data\\obj\\",
+      "outputPath": "c:\\projetos\\Curso_DDD_Tests_Dotnet\\src\\Api.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Fer e Ju\\AppData\\Roaming\\NuGet\\NuGet.Config",
