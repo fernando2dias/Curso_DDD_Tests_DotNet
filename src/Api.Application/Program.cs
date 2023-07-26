@@ -1,5 +1,7 @@
 using Api.CrossCutting.DependencyInjection;
 using Api.Domain.Security;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 
@@ -30,6 +32,23 @@ builder.Services.AddSwaggerGen(c =>
             Url = new Uri("https://www.linkedin.com/in/fernando2dias/")
         }
     });
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+      Description = "Enter JWT Code",
+      Name = "Authorization",
+      In = ParameterLocation.Header,
+      Type = SecuritySchemeType.ApiKey
+    });
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement{
+        {
+        new OpenApiSecurityScheme{
+            Reference = new OpenApiReference{
+                Id = "Bearer",
+                Type = ReferenceType.SecurityScheme
+            }
+        }, new List<string>()
+        }
+    });
 });
 
 
@@ -46,7 +65,30 @@ var tokenConfigurations = new TokenConfigurations();
 new ConfigureFromConfigurationOptions<TokenConfigurations>(
     builder.Configuration.GetSection("TokenConfigurations"))
     .Configure(tokenConfigurations);
+    
 builder.Services.AddSingleton(tokenConfigurations);
+
+builder.Services.AddAuthentication(authOptions => 
+{
+    authOptions.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    authOptions.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(bearerOptions => 
+{
+    var paramsValidation = bearerOptions.TokenValidationParameters;
+    paramsValidation.IssuerSigningKey = signingConfigurations.Key;
+    paramsValidation.ValidAudience = tokenConfigurations.Audience;
+    paramsValidation.ValidIssuer = tokenConfigurations.Issuer;
+    paramsValidation.ValidateIssuerSigningKey = true;
+    paramsValidation.ValidateLifetime = true;
+    paramsValidation.ClockSkew = TimeSpan.Zero;
+});
+
+builder.Services.AddAuthorization(auth => 
+{
+    auth.AddPolicy("Bearer", new AuthorizationPolicyBuilder()
+                            .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
+                            .RequireAuthenticatedUser().Build());
+});
 
 
 var app = builder.Build();
