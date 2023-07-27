@@ -18,7 +18,10 @@
                 "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
             },
             "env": {
-                "ASPNETCORE_ENVIRONMENT": "Development"
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "DB_CONNECTION" : "Server=DESKTOP-V94PVE8\\SQLEXPRESS;Database=dbAPI2;Trusted_Connection=True;",
+                "DATABASE" : "SQLSERVER",
+                "MIGRATION" : "APLICAR"
             },
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"
